@@ -1,0 +1,8 @@
+name: demo workflow
+on: workflow_dispatch
+jobs:
+  print_demo:
+    runs-on: windows-latest
+    steps:
+      -name: print to consol
+        run: echo Hellow GH Actions!
